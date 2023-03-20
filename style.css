@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#130f40;
+    color: white;
+}
+.nav-items{
+    margin-right: 2rem;
+    margin-top: 1.4rem;
+}
+.nev-logo h2{
+    margin-left: 2rem;
+    margin-top: 1.4rem;
+
+}
+.main-nav .nav-item ul{
+     
+}
+.nav-items nav ul li{
+    display: inline-block;
+    margin: 0 .7rem;
+ 
+}
+.nav-items ul a{
+    text-decoration: none;
+    font-size:900;
+    display: block;
+    color: white;
+
+    
+}
+.nav-items ul a:hover{
+    
+}
+
+/* header css */
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+    background-color:#130f40;
+}
+.header-img img{
+    width: 400px;
+    border-radius: 8rem  2rem;
+}
+.text{
+    margin-right: 12rem;
+}
+.text h1{
+    color: white;
+    font-weight: 900;
+}
+.text h3{
+    padding: 1rem 0;
+    color: yellow;
+}
+.text p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 1rem;
+    
+}
+.header-btn{
+    background-color: white;
+    border-radius: .6rem;
+    padding: .3rem 1rem;
+    border: none;
+}
+
+/* about style */
+.about{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.about-heading h1{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.about-text{
+    font-size: .7rem;
+}
+.about-btn{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin-top: .8rem;
+}
+
+/* service section */
+
+.service-text{
+    text-align: center;
+    max-width: 370px;
+    margin: auto;
+}
+.card{
+    width: 180px;
+    height: 200px;
+    padding: 1rem;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 1rem 2rem;
+
+}
+.card span i{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.7rem;
+    
+}
+.iconss{
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.7rem;
+}
+.card h5{
+    margin-bottom: 1.5rem;
+    color: yellow;
+}
+.card p{
+   color: rgb(186, 186, 186);
+   font-size: 13px;
+}
+.service{
+    padding: 2rem;
+    background-color: #130f40;
+    margin-top: 3rem;
+    text-align: center;
+}
+.service-text{
+    color: white;
+    margin-bottom: 2rem;
+}
+.service-text p{
+    color: rgb(148, 148, 148);
+    font-size: 12px;
+    margin-top: .7rem;
+}
+.service-card{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.7rem;
+  text-align: center;
+  margin-top: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
