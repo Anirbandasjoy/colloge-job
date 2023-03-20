@@ -155,3 +155,76 @@
   max-width: 500px;
   margin: auto;
 }
+
+
+@media screen and (max-width : 740px){
+    .header{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 4rem 2rem;
+    text-align: center;
+    
+    }
+    .header-img img{
+        margin-top: 4rem;
+        width: 250px;
+        border-radius: 2rem  8rem;
+    
+    }
+    .header-img{
+        text-align: left;
+        
+    }
+    .text{
+        margin-left: 5rem;
+        text-align: center;
+    }
+    .text h1{
+        color: white;
+        font-weight: 900;
+        font-size: 16px;
+    }
+    .text h3{
+        padding: 1rem 0;
+        color: yellow;
+    }
+    .text p{
+        color: white;
+        font-size: 12px;
+        margin-bottom: 1rem;
+        
+    }
+    .header-btn{
+        background-color: white;
+        border-radius: .6rem;
+        padding: .3rem 1rem;
+        border: none;
+    }
+}
+
+@media screen and (max-width : 740px){
+    .nav-items ul a{
+        text-decoration: none;
+        font-size:10px;
+        display: block;
+        color: white;
+      
+    }
+    .nev-logo img{
+        width: 50px;
+        height: auto;
+    }
+    .about-img img{
+        width: 250px;
+      
+    }
+    .about-heading h1{
+        margin-bottom: 1rem;
+        font-size: 20px;
+        text-align: center;
+    }
+    .service-card{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
